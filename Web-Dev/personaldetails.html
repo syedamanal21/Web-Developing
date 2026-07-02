@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        body{
+            background-color:rgb(234, 233, 233);
+        }
+        h1{
+             color: whitesmoke;
+            text-align: center;
+            font-size: 60px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+        }
+        
+        h2{
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          text-align: center;
+        }
+        .name{
+            color:black;
+            font-size: 20px;
+            margin: 12px;
+        }
+        .date{
+            color: black;
+            font-size: 20px;
+             margin: 12px;
+        }
+        .ID{
+             color: black;
+            font-size: 20px;
+             margin: 12px;
+        }
+        .class{
+             color: black;
+            font-size: 20px;
+             margin: 12px;
+        }
+        .gender{
+             color: black;
+            font-size: 20px; 
+            margin: 12px;
+        }
+        .city{
+             color: black;
+            font-size: 20px;
+             margin: 12px;
+        }
+        .nationality{
+             color: black;
+            font-size: 20px;
+             margin: 12px;
+        }
+        .home{
+             margin: 12px;
+             
+        }
+        a{
+            background-color:black;
+            color: #e5d9c5;
+            padding: 8px 18px;
+            margin: 10px;
+            margin-bottom: 1px;
+        }
+        a:hover{
+            background-color: white;
+             color: black;
+        }
+       
+    </style>
+</head>
+<body>
+      <h1><div class="p-3 mb-2 bg-dark text-white"> Students Form</div></h1>
+      <h2><div class="p-3 mb-2 bg-light text-dark">Personal Information</div></h2>
+    
+    <br>
+    <form>
+        <label class="name">Name</label><br>
+        <input class="home" type="text" id="name"><br><br>
+        <label class="date">Date of Birth</label><br>
+        <input  class="home"type="text" id="date of birth"><br><br>
+        <label class="ID">Students ID number/Roll number</label><br>
+        <input  class="home"type="text" id="Students ID number/Roll number"><br><br>
+        <label class="class">Class</label><br>
+        <input  class="home"type="text" id="class"><br><br>
+        <label class="gender">Gender</label><br>
+        <input class="home" type="radio" id="female" name="gender" value="female">female<br>
+        <input class="home" type="radio" id="male" name="gender" value="male">male<br><br>
+        <label class="city">City</label><br>
+        <input class="home" class="home" type="checkbox" id="city value=Karachi">Karachi<br>
+        <input class="home" type="checkbox" id="city value=Lahore">Lahore<br>
+        <input  class="home"type="checkbox" id="city value=Islamabad">Islamabad<br>
+        <input class="home" type="checkbox" id="city value=Faisalabad">Faisalabad<br>
+        <input class="home" type="checkbox" id="city value=Rawalpindi">Rawalpindi<br>
+        <input class="home" type="checkbox" id="city value=Multan">Multan<br>
+        <input class="home" type="checkbox" id="city value=Peshawar">Peshawar<br>
+        <input class="home" type="checkbox" id="city value=Quetta">Quetta<br>
+        <input class="home" type="checkbox" id="city value=Hyderabad">Hyderabad<br>
+        <input class="home" type="checkbox" id="city value=Gujarnwala">Gujarnwala<br><br>
+        <label class="nationality">Nationality</label><br>
+        <input class="home" type="text" id="nationality"><br><br>
+        <h2><div class="p-3 mb-2 bg-light text-dark">Contact Information</div></h2>
+        <label class="name">Email ID</label><br>
+        <input class="home" type="text" id="email id"><br><br>
+        <label class="name">Home Address </label><br>
+        <input class="home" type="text" id="home address"><br><br>
+        <label class="name">Contact Number (This will be hidden)</label><br>
+        <input class="home" type="password" id="contact"><br><br>
+         <h2><div class="p-3 mb-2 bg-light text-dark">Parents/Guardians Information</div></h2>
+        <label class="name">Parents/Guardians Name</label><br>
+        <input class="home" type="text" id="parents/guardians name"><br><br>
+        <label class="name">Parents/Guardians CNIC</label><br>
+        <input class="home" type="text" id="parents/guardians CNIC"><br><br>
+        <label class="name">Occupation</label><br>
+        <input class="home" type="text" id="occupation"><br><br>
+         <h2><div class="p-3 mb-2 bg-light text-dark">Academic background</div></h2>
+        <label class="name">Current Grade</label><br>
+        <input class="home" type="text" id="current grade"><br><br>
+        <label class="name">Previous School/Institution</label><br>
+        <input class="home" type="text" id="previous school/institution"><br><br>
+        <label class="name">Last Exam Pass</label><br>
+        <input class="home" type="text" id="last exam pass"><br><br>
+        <label class="name">Medium of Instruction</label><br>
+        <input class="home" type="text" id="medium of instructions"><br><br>
+        <label class="name">Percentage</label><br>
+        <input class="home" type="text" id="percentage"><br><br>
+        <h2><div class="p-3 mb-2 bg-light text-dark">Personal Health</div></h2>
+        <label class="name">Blood Group</label><br>
+        <input class="home" type="text" id="Blood Group"><br><br>
+        <label class="name">Any Allergies</label><br>
+        <input class="home" type="text" id="any allergies"><br><br>
+        <label class="name">Any disease</label><br>
+        <input class="home" type="text" id="any disease"><br><br>
+        <b><hr></b>
+         <h4 class="home"><p>Required Documents Checklist:(For the administration)</p></h4>
+         <li class="home">
+         Passport Size Photographs(e.g., 4 recent copies)
+         </li>
+         <li class="home">
+         Student B-Form Copy
+         </li>
+         <li class="home">
+         Father's/Guardian's CNIC Copy
+         </li>
+         <li class="home">
+         Previous Academic Result / Marksheet
+         </li>
+         <li class="home">
+         School Leaving/Migration Certificate
+         </li>
+         <br>
+        
+        <!--hover effect-->
+    <a href="#">Submit</a>
+    <br>
+    <br>
+    </form>
+    
+</body>
+</html>
