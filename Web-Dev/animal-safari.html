@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+    <title>Animal Safari</title>
+    
+<body>
+    <!-- The carousel wrapper -->
+<div id="safariCarousel" class="carousel slide"
+     data-ride="carousel">
+  <div class="carousel-inner">
+    <!-- slides go here -->
+  </div>
+</div>
+<ol class="carousel-indicators">
+  <li data-target="#safariCarousel" data-slide-to="0" class="active"></li>
+  <li data-target="#safariCarousel" data-slide-to="1"></li>
+  <li data-target="#safariCarousel" data-slide-to="2"></li>
+</ol>
+<div class="carousel-inner">
+  <div class="carousel-item active safari-slide slide-forest">
+    Forest Safari
+  </div>
+  <div class="carousel-item safari-slide slide-ocean">
+    Ocean Safari
+  </div>
+  <div class="carousel-item safari-slide slide-desert">
+    Desert Safari
+  </div>
+</div>
+<!-- Previous arrow -->
+<a class="carousel-control-prev" href="#safariCarousel"
+   data-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+</a>
+<!-- Next arrow -->
+<a class="carousel-control-next" href="#safariCarousel"
+   data-slide="next">
+  <span class="carousel-control-next-icon"></span>
+</a>
+ <!-- body with Scrollspy activated -->
+<body data-spy="scroll" data-target="#safariNav" data-offset="60">
+<!-- Scrollspy navbar -->
+<nav id="safariNav" class="navbar navbar-dark bg-dark sticky-top">
+  <span class="navbar-brand">Safari Guide</span>
+  <ul class="navbar-nav">
+    <li class="nav-item"><a class="nav-link" href="#forest">Forest</a></li>
+    <li class="nav-item"><a class="nav-link" href="#ocean">Ocean</a></li>
+    <li class="nav-item"><a class="nav-link" href="#desert">Desert</a></li>
+  </ul>
+</nav>
+<!-- Sections with matching ids -->
+<div id="forest" class="section"> ... </div>
+<div id="ocean"  class="section"> ... </div>
+<div id="desert" class="section"> ... </div>
+ </body>
+</body>
+</html>
