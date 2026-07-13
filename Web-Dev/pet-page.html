@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet-Page</title>
+    <style>
+        body{
+            background-color: bisque;
+        }
+        .top-bar{
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: darkgoldenrod;
+            padding: 14px 20px;
+        }
+        .list-item{
+            position: static;
+            background-color: rgb(122, 223, 223);
+            padding: 14px 20px ;
+        }
+        .special-note{
+            position: relative;
+            left: 30px;
+            background-color: rgb(88, 88, 247);
+            padding: 14px 20px;
+        }
+        .badge{
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background-color: rgb(228, 106, 147);
+            padding: 14px 20px;
+
+        }
+        .sticky{
+            position: sticky;
+            top: 8px;
+            right: 8px;
+            background-color: rgb(169, 73, 169);
+            padding: 14px 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+     <h2> Dog : German Shepherd</h2>
+    </div>
+    <p>Meet Buddy!</p>
+
+    <h2>Static Positioning</h2>
+    <p class="list-item"> Age : 2 years</p>
+    <p class="list-item"> Food : Meat</p>
+    <h2>Relative positioning</h2>
+    <div class="special-note"> Pet of the month</div>
+    <h2>Absolute positioning</h2>
+    <div class="badge"> <p> Adopted</p>
+    </div>
+    <h2>Sticky Positioning</h2>
+    <div class="sticky">
+        <h5>Scroll here</h5>
+        <p>See More Pets</p>
+    </div>
+</body>
+</html>
