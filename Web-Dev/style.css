@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(109, 163, 218);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.image{
+    width: 150px;
+    height: 100px;
+}
+.title{
+    font-size: 20px;
+    text-decoration: wavy;
+}
+.card{
+    font-size: 10px;
+    background-image: linear-gradient(to right,rgb(242, 121, 242),rgb(236, 159, 172));
+    width: 200px;
+    height: 100px;
+}
+.footer{
+    color: black;
+}
